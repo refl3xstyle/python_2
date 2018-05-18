@@ -16,5 +16,4 @@ a = int(input('Введите A: '))
 b = int(input('Введите B: ')) 
 c = int(input('Введите C: ')) 
 d = int(input('Введите D: '))
-
 check_n(a,b,c,d)
