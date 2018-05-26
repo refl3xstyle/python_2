@@ -21,11 +21,3 @@ for i in range(N):
     a.append(b)
     print()
 print()
-print('Итоговая матрица:')
-for i in range(N):
-    for j in range(M):
-        b.append(b[j] / max_in_list(b))
-        print("%3d" % b[j], end='')
-    a.append(b)
-    print()
-#print('{color}   | {sum}{endcolor}'.format(color = colorama.Fore.RED,sum = sum(b), endcolor = colorama.Fore.WHITE))
