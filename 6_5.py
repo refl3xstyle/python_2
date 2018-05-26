@@ -18,7 +18,7 @@ class T1(object):
 class T2(T1):
     def quality(self):
         f = self.procent_vipusk * self.main_func()
-        return f
+        return round(f,2)
 
 x1 = str(input("Введите название заведения: "))
 x2 = int(input("Введите количество студентов зачисленных на 1-й курс: "))
@@ -27,4 +27,4 @@ x4 = int(input("Введите процент выпусников, которы
 
 my1 = T2(x1,x2,x3,x4)
 
-print('Качество учебного заведения {color}{title}{endcolor} равняется: {color}{out}{endcolor}/10 баллов'.format(color = colorama.Fore.GREEN, endcolor = colorama.Fore.WHITE, title = x1, out = my1.quality()))
+print('Качество учебного заведения {color}{title}{endcolor} равняется: {color}{out}{endcolor}/100 баллов'.format(color = colorama.Fore.GREEN, endcolor = colorama.Fore.WHITE, title = x1, out = my1.quality()))
