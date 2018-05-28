@@ -5,7 +5,6 @@ colorama.init(strip=False)
 M = 10
 N = 10
 a = []
-print('Исходная матрица:')
 for i in range(N):
     b = []
     for j in range(M):
